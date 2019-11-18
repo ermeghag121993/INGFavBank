@@ -84,8 +84,8 @@
 	</dependencies>
 <distributionManagement>
   <snapshotRepository>
-    <id>nexus</id>
-    <url>http://3.15.17.178:8081/nexus/content/repositories/snapshots</url>
+    <id>artifactory</id>
+    <url>http://3.15.17.178:8081/artifactory/content/repositories/snapshots</url>
   </snapshotRepository>
 </distributionManagement>
 
