@@ -81,14 +81,13 @@
 			<artifactId>jacoco-maven-plugin</artifactId>
 			<version>0.8.3</version>
 		</dependency>
+	</dependencies>
 <distributionManagement>
   <snapshotRepository>
     <id>nexus</id>
     <url>http://3.17.146.226:8081/nexus/content/repositories/snapshots</url>
   </snapshotRepository>
 </distributionManagement>
-	</dependencies>
-	
 
 	<build>
 		<plugins>
