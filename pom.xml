@@ -83,11 +83,13 @@
 		</dependency>
 	</dependencies>
 <distributionManagement>
-  <snapshotRepository>
-    <id>artifactory</id>
-    <url>http://3.15.17.178:8081/artifactory/content/repositories/snapshots</url>
-  </snapshotRepository>
+    <snapshotRepository>
+        <id>artifactory</id>
+        <name>ip-172-31-0-97.us-east-2.compute.internal-snapshots</name>
+        <url>http://18.217.233.209:8081/artifactory/SampleDemo</url>
+    </snapshotRepository>
 </distributionManagement>
+
 
 	<build>
 		<plugins>
