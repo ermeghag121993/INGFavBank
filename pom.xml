@@ -84,7 +84,7 @@
 	</dependencies>
 <distributionManagement>
     <snapshotRepository>
-        <id>SampleDemo</id>
+        <id>artifactory</id>
         <name>ip-172-31-0-97.us-east-2.compute.internal-snapshots</name>
         <url>http://18.217.233.209:8081/artifactory/SampleDemo</url>
     </snapshotRepository>
