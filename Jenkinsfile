@@ -4,7 +4,7 @@ stages {
         stage('Git checkout')
             {
             steps {
-              git 'https://github.com/ADDLAB6314/INGFavBank.git'
+              git 'https://github.com/ermeghag121993/INGFavBank'
               }
             }
         stage('Build Analysis') 
