@@ -81,14 +81,8 @@
 			<artifactId>jacoco-maven-plugin</artifactId>
 			<version>0.8.3</version>
 		</dependency>
-	</dependencies>
-<distributionManagement>
-    <snapshotRepository>
-        <id>artifactory</id>
-        <url>http://3.135.199.160:8081/artifactory</url>
-    </snapshotRepository>
-</distributionManagement>
 
+	</dependencies>
 
 	<build>
 		<plugins>
@@ -96,11 +90,6 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<plugin>
-                                <groupId>org.apache.maven.plugins</groupId>
-                                <artifactId>maven-deploy-plugin</artifactId>
-                                <version>2.8.2</version>
-                        </plugin>
 			<plugin>
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
